@@ -1,3 +1,4 @@
+    
     c: "custom",
     custom: function(target, room, user) {
         if (!user.isDev() || !target) return false;
